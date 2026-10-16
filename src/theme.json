@@ -1,0 +1,28 @@
+{
+  "name": "darkly-reading",
+  "title": "Darkly Reading",
+  "upstream": "https://bootswatch.com/darkly/",
+  "version": "0.1.0",
+  "palette": {
+    "paper": "#222222",
+    "ink": "#eeeeee",
+    "panel": "#2b3035",
+    "muted": "#bdc4cb",
+    "link": "#8db9e8",
+    "button": "#375a7f",
+    "line": "#53606c",
+    "on-button": "#ffffff",
+    "link-hover": "#8db9e8",
+    "button-hover": "#375a7f",
+    "focus-rgb": "141, 185, 232",
+    "success-bg": "#153b31",
+    "success-ink": "#b8e6d3",
+    "success-line": "#507b6d",
+    "warning-bg": "#3d3017",
+    "warning-ink": "#f3d798",
+    "warning-line": "#aa8648",
+    "danger-bg": "#3d2424",
+    "danger-ink": "#f1beb7",
+    "danger-line": "#a67570"
+  }
+}
