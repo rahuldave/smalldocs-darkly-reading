@@ -68,10 +68,23 @@ Error: this status has a named heading and primary prose.
 An `inline_code` phrase stays distinct without becoming tiny.
 
 ```python
+from dataclasses import dataclass
 from statistics import mean
+
+@dataclass
+class Sample:
+    value: int = 3
+
+# Syntax families remain distinct on the tinted code surface.
 values = [1, 2, 3]
-print(mean(values))
+print(mean(values), "readable code")
 ```
+
+<pre class="sourceCode" id="syntax-palette"><code class="sourceCode"><span><span class="al">al</span> <span class="an">an</span> <span class="at">at</span> <span class="bn">bn</span> <span class="bu">bu</span> <span class="cf">cf</span> <span class="ch">ch</span></span>
+<span><span class="cn">cn</span> <span class="co">co</span> <span class="cv">cv</span> <span class="do">do</span> <span class="dt">dt</span> <span class="dv">dv</span> <span class="er">er</span></span>
+<span><span class="ex">ex</span> <span class="fl">fl</span> <span class="fu">fu</span> <span class="im">im</span> <span class="in">in</span> <span class="kw">kw</span> <span class="op">op</span></span>
+<span><span class="ot">ot</span> <span class="pp">pp</span> <span class="sc">sc</span> <span class="ss">ss</span> <span class="st">st</span> <span class="va">va</span> <span class="vs">vs</span></span>
+<span><span class="wa">wa</span></span></code></pre>
 
 | Component | Expected behavior |
 |:---|:---|
